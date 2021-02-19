@@ -6,3 +6,10 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+* {
+  border: 1px solid red
+}
+
+ h1, h2, form, .result-area {
+   text-align: center;
+ }
