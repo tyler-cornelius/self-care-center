@@ -18,3 +18,10 @@ black - #000000;
    margin: auto;
    border-radius: 20px;
  }
+
+ button {
+   background-color: #134d71;
+   color: white;
+   border-radius: 20px;
+   border: none;
+ }
