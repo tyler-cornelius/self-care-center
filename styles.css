@@ -14,7 +14,6 @@ black - #000000;
 
  h1, h2, form, .result-area {
    text-align: center;
-   padding: 50px;
    width: 50%;
    margin: auto;
    border-radius: 20px;
@@ -34,6 +33,24 @@ black - #000000;
    background-color: white;
  }
 
+ form {
+   padding: 50px;
+ }
+
  h1 {
    vertical-align: middle;
+   padding-bottom: 30px;
+ }
+
+ h2 {
+   padding-bottom: 200px;
+   bottom: 0;
+ }
+
+ .space {
+   padding: 50px;
+ }
+
+ .result-area {
+   padding: 75px;
  }
