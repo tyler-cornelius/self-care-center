@@ -11,6 +11,9 @@ black - #000000;
   font-family: 'Quicksand', sans-serif;
 }
 
+.gradiant {
+  background: linear-gradient(to bottom, #134d71, #78a7c6, #f7e4bf);
+}
 
  h1, h2, form, .result-area {
    text-align: center;
@@ -29,7 +32,7 @@ black - #000000;
    height: 25px;
  }
 
- form, p {
+ form, .result-area {
    background-color: white;
  }
 
@@ -52,5 +55,6 @@ black - #000000;
  }
 
  .result-area {
-   padding: 75px;
+   padding: 60px;
+   width: 70%
  }
