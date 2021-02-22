@@ -15,11 +15,12 @@ black - #000000;
   background: linear-gradient(to bottom, #134d71, #78a7c6, #f7e4bf);
 }
 
+
  h1, h2, form, .result-area {
-   text-align: center;
    width: 50%;
    margin: auto;
    border-radius: 20px;
+   text-align: center;
  }
 
  button {
@@ -27,9 +28,9 @@ black - #000000;
    color: white;
    border-radius: 5px;
    border: none;
-   padding: 5px;
-   width: 150px;
-   height: 25px;
+   padding: 8px;
+   width: 160px;
+   height: 30px;
  }
 
  form, .result-area {
@@ -43,18 +44,27 @@ black - #000000;
  h1 {
    vertical-align: middle;
    padding-bottom: 30px;
+   color: white;
  }
 
  h2 {
-   padding-bottom: 200px;
-   bottom: 0;
+   height: 30px;
+   color: white;
  }
 
  .space {
    padding: 50px;
  }
 
+ .space2 {
+   padding: 75px;
+ }
+
  .result-area {
    padding: 60px;
    width: 70%
+ }
+
+ input[type = "radio"] {
+   margin: 0 10px 0 50px;
  }
